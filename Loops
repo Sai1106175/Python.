@@ -1,0 +1,52 @@
+
+'''
+Loops in Python
+Loops in Python are used to execute a block of code repeatedly until a specified condition is met. Python provides two types of loops:
+
+for loop – Used for iterating over sequences (like lists, tuples, strings, dictionaries, etc.).
+while loop – Executes as long as a condition remains True.
+Syntax.
+for variable in iterable:
+    # Loop body (indented block of code)
+
+
+'''
+#Example 1
+
+name = "Sai"
+
+for i in name:
+  print(i)
+
+# Example 2
+Listofname= ["Sai", "Sharan", "Varun"]
+
+for j in Listofname:
+  print(j)
+  for k in j:
+    print(k)
+   
+''' 
+The range() function in Python is used to generate a sequence of numbers. It is commonly used in loops for iteration.
+Syntax:
+range(start, stop, step)
+Parameters:
+
+start (optional) - The beginning of the sequence (default is 0).
+stop (required) - The end of the sequence (exclusive, meaning it stops before this value).
+step (optional) - The difference between each number in the sequence (default is 1).
+
+Key Points:
+The range() function does not return a list in Python 3 but a range object, which is memory efficient.
+You can convert it into a list using list(range(...)) if needed.
+range() is commonly used in loops for iteration.
+
+'''
+
+
+
+
+for i in range(0,5 ,2): # (0 is something where numbers start. 5 is the index where number should go and 2 is the difference between the number thatshould prit)
+  print(i)
+
+
