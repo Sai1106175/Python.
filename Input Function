@@ -1,0 +1,105 @@
+# # #input() is a Python built-in function used to take input from the user through the keyboard.
+
+# # #Write a program that asks the user for their name and prints:
+
+# # a = input("Enter your Name")
+# # print("Hello",a)
+
+# # #Ask the user to enter their age and print their age.
+# # #Also print its data type.
+
+# # b = input("Enter your age")
+# # print(b, type(b))
+
+# # #Q4. Addition
+# # #Ask the user for two numbers and add them.
+
+# # c = input("Enter the first Number")
+# # d = input("Enter the second Number")
+
+# # print(c+d) # if you are not converting the datatype using explicit conversion then the ouptu will be 2030
+
+# # print(int(c)+ int(d))
+
+# """
+# Q1. Total + Average
+
+# Ask the user to enter marks for 3 subjects:
+
+# Enter Maths marks: 80
+# Enter Science marks: 75
+# Enter English marks: 90
+
+# Calculate and print:
+
+# Total: 245
+# Average: 81.66666666666667
+# """
+
+# maths = input("Enter Maths marks:")
+# Science = input("Enter Science marks:")
+# English = input("Enter English marks:")
+
+# Total = int(maths)+ int(Science)+ int(English)
+
+# print("Total :",Total)
+
+# av = float(Total/3)
+
+
+# print("Average:", av)
+
+"""
+Q4. Age Calculator
+
+Ask the user for:
+
+Name
+Current age
+
+Calculate:
+
+Age after 10 years
+
+Example:
+
+Enter your name: Sharan
+Enter your age: 28
+
+Hello Sharan
+Your age after 10 years: 38
+
+"""
+
+# name = input("Name :")
+# age = input("Current age:")
+
+# futureage = 10 + int(age)
+
+# print("Your age after 10 years", futureage)
+
+# Q5. Bill Splitter
+
+# Ask the user for:
+
+# Total bill
+# Number of people
+
+# Example:
+
+# Enter total bill: 2500
+# Enter number of people: 4
+
+# Calculate how much each person needs to pay.
+
+# Expected:
+
+# Each person pays: 625.0
+
+
+totalBill = input("Enter total bill:")
+noofppl =  input("Enter number of people:")
+
+billsplt = float(totalBill)/float(noofppl)
+
+print("Each person pays: ", billsplt)
