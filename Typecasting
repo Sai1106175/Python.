@@ -1,0 +1,27 @@
+#TypeCasting.
+#The Conversion of one data type into another data type is called as typecasting.
+
+#Typecasting are of two types
+#Explicit Conversion.
+#Implicit conversion.
+
+#Q1. Convert the string "25" into an integer and print its type.
+
+a = "25"
+a = int(a)
+print(a, type(a))
+
+#Q2. Convert the integer 50 into a string and print its type.
+
+b = 50
+b = str(b)
+print(b,type(b))
+
+
+#ImplicitConverison
+#Python automatically converts one data type into another when required, without you explicitly telling it to convert.
+
+d = 10
+e = 11.5
+
+print(d+e)
