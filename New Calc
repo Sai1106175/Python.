@@ -1,0 +1,16 @@
+a = 5
+b = 3
+
+print("Addition of a and b is ", a+b)
+
+print("Substration of a and b is ", a-b)
+
+print("Multiplication  of a and b is ", a*b)
+
+print("Modules  of a and b is ", a/b)
+
+print("Floor Division of a and b is ", a//b)
+
+print("Reminder of a and b is", a%b)
+
+print("Power of  a to b is ", a**b)
