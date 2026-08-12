@@ -1,0 +1,56 @@
+#Datatypes.
+
+a = 1 #int
+b = "stringtypeValue" #String
+c = True #Boolean
+print(a)
+
+print("The Type of data type is ", type(a))  #We have used builtInFunction to define the type of Datatype   
+
+print("The type of data type is used", type(c))   #We have used builtInFunction to define the type of Datatype   
+
+#Numericaldatatypes 
+# Int, Float, Complex
+
+x = 1
+print(x)
+print("The value of the datatype",type(x))
+
+y = 1.2
+print(y)
+print("The value of the datatype",type(y))
+
+z = complex(1,5) # complex(real_part, imaginary_part)
+print(z)
+print("The value of the datatype",type(z))
+
+
+#String
+
+v = "Hello world"
+print(v)
+print("The value of the datatype", type(v))
+
+#Boolean 
+
+#List 
+#List is a collection of Data with elements seperated by a comma and eclosed in squr brackets and this are mutable 
+
+
+#Tupl
+#tupl is exactly the same thing but this are changable. 
+
+#dict 
+#A dictionary (dict) in Python is a data type used to store data in key-value pairs.
+
+student = {"Name":"Sharan", a:28, "IS_active":True}
+
+print(student["Name"])
+
+print(student[a], type(student[a]))
+
+"""
+()  → DO something
+[]  → GET something / LIST
+{}  → STORE something with keys / SET
+"""
