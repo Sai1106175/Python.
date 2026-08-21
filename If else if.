@@ -1,0 +1,68 @@
+name = input("Please enter your Name : ")
+salary = int(input("Please enter your salary."))
+experence = int(input("Please enter your years of experince"))
+
+"""
+Experience >= 10 years → 20% bonus
+Experience >= 5 years  → 10% bonus
+Experience >= 2 years  → 5% bonus
+Experience < 2 years   → No bonus
+"""
+if (experence <2):
+    print("This year you dont have Bonus")
+elif (experence >=2):
+    print("This is your bonus will be 5%")
+elif (experence >= 5):
+    print("This year your bonus will be 10%")
+elif (experence >=10):
+    print("This year your bonus will be 20%")
+else:
+    print("please enter the right number ")
+
+
+
+"""
+90–100 → Excellent
+75–89  → Very Good
+60–74  → Good
+40–59  → Average
+Below 40 → Needs Improvement
+"""
+
+userScore = input("Please enter your score to gage your Grade")
+Mynumber = int(userScore)
+
+if(Mynumber>=90 and Mynumber<=100 ):
+    print("Your grade is Excellent")
+elif(Mynumber>=75 and Mynumber<=89):
+    print("Your grade is  Very good")
+elif(Mynumber>=60 and Mynumber <= 74):
+    print("Your grade is Good")
+elif(Mynumber >=40 and Mynumber <=59):
+    print("your grade is Average")
+elif(Mynumber<40):
+    print("You needs to improve")
+else:
+    print("Enter the right number")
+
+
+username = input("Please enter your name")
+exprience = int(input("Please enter your experience"))
+perfomancerating = int(input("Please enter your P.R in 1-5"))
+currentSlaray = int(input("Enter your salary"))
+if(perfomancerating>=1 and perfomancerating<=5):
+    if (exprience >= 5 and perfomancerating >=4 and perfomancerating<=5):
+        print ("Employee",username, "\nYears of experience :", exprience, "\nSalary :", currentSlaray +(currentSlaray*20/100) )
+    elif (exprience >= 3 and exprience <=4 and perfomancerating >=4 and perfomancerating<=5):
+        print ("Employee",username, "\nYears of experience :", exprience, "\nSalary :", currentSlaray +(currentSlaray*15/100) )
+    elif (exprience >= 1 and exprience <=2 and perfomancerating >=3 and perfomancerating<=5):
+        print ("Employee",username, "\nYears of experience :", exprience, "\nSalary :", currentSlaray +(currentSlaray*10/100) )
+    else:
+        print("No Bonus")
+else:
+    print("valid Bonus")
+
+
+
+
+
